@@ -63,7 +63,3 @@ This repo compares KMeans, Hierarchical Clustering, and MeanShift on the Wine da
 - **Top Algorithm:** KMeans with PCA or T+N+PCA  
 - **Runner-up:** MeanShift when you don’t want to fix cluster count  
 
-## How to Run
-
-```bash
-git clone https://github.com/your-username/your-repo.git
