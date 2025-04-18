@@ -57,9 +57,8 @@ This repo compares KMeans, Hierarchical Clustering, and MeanShift on the Wine da
 
 ---
 
-## Conclusion
-
-- **Best Preprocessing:** T+N+PCA  
-- **Top Algorithm:** KMeans with PCA or T+N+PCA  
-- **Runner-up:** MeanShift when you don’t want to fix cluster count  
-
+### Best Clustering Configuration Based on TOPSIS
+**Algorithm:** kmeans
+**Preprocessing:** PCA
+**Number of Clusters:** 5
+**TOPSIS Score:** 0.9662
