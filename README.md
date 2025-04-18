@@ -15,13 +15,13 @@ This repo compares KMeans, Hierarchical Clustering, and MeanShift on the Wine da
 ### KMeans Clustering
 
 #### Silhouette Score  
-![KMeans Silhouette](path/to/kmeans_silhouette.png)
+![KMeans Silhouette](images/kmeans_silhouette.png)
 
 #### Calinski–Harabasz Score  
-![KMeans Calinski-Harabasz](path/to/kmeans_calinski.png)
+![KMeans Calinski-Harabasz](images/kmeans_calinski.png)
 
 #### Davies–Bouldin Score  
-![KMeans Davies-Bouldin](path/to/kmeans_davies.png)
+![KMeans Davies-Bouldin](images/kmeans_davies.png)
 
 **Observation:** Best separation and compactness with PCA or T+N+PCA.
 
@@ -30,13 +30,13 @@ This repo compares KMeans, Hierarchical Clustering, and MeanShift on the Wine da
 ### Hierarchical Clustering
 
 #### Silhouette Score  
-![Hierarchical Silhouette](path/to/hierarchical_silhouette.png)
+![Hierarchical Silhouette](images/hierarchical_silhouette.png)
 
 #### Calinski–Harabasz Score  
-![Hierarchical Calinski-Harabasz](path/to/hierarchical_calinski.png)
+![Hierarchical Calinski-Harabasz](images/hierarchical_calinski.png)
 
 #### Davies–Bouldin Score  
-![Hierarchical Davies-Bouldin](path/to/hierarchical_davies.png)
+![Hierarchical Davies-Bouldin](images/hierarchical_davies.png)
 
 **Observation:** Stable overall but higher Davies–Bouldin with raw/transformed data.
 
@@ -45,13 +45,13 @@ This repo compares KMeans, Hierarchical Clustering, and MeanShift on the Wine da
 ### MeanShift Clustering
 
 #### Silhouette Score  
-![MeanShift Silhouette](path/to/meanshift_silhouette.png)
+![MeanShift Silhouette](images/meanshift_silhouette.png)
 
 #### Calinski–Harabasz Score  
-![MeanShift Calinski-Harabasz](path/to/meanshift_calinski.png)
+![MeanShift Calinski-Harabasz](images/meanshift_calinski.png)
 
 #### Davies–Bouldin Score  
-![MeanShift Davies-Bouldin](path/to/meanshift_davies.png)
+![MeanShift Davies-Bouldin](images/meanshift_davies.png)
 
 **Observation:** Consistent across preprocessings; benefits from normalization and PCA.
 
